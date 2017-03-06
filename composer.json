@@ -1,18 +1,18 @@
 {
-    "name": "cnvs/paper",
-    "description": "Canvas Default Appearance",
-    "keywords": ["canvas", "theme", "paper"],
+    "name": "cnvs/paper-xeric",
+    "description": "Canvas Xeric Theme",
+    "keywords": ["canvas", "theme", "xeric"],
     "type": "canvas-theme",
     "license": "MIT",
     "authors": [
         {
-            "name": "Todd Austin",
-            "email": "austin.todd.j@gmail.com"
+            "name": "Desmond Rush",
+            "email": "me@desmondrush.com"
         }
     ],
     "extra": {
         "canvas-theme": {
-            "title": "Paper",
+            "title": "Paper Xeric",
             "directories": {
                 "public": "public",
                 "views": "resources/views"
