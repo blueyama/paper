@@ -54,7 +54,7 @@
   margin-bottom: 40px;
 
   h1 {
-    a {color: $gray-muted !important;}
+    a {color: $light-muted !important;}
     font-family: 'Unthrift First Personal' !important;
     font-size: 60px;
     margin-bottom: 0;
@@ -64,11 +64,11 @@
     font-size: 16px;
     letter-spacing: 2px;
     margin: 3px 0 20px 0;
-    color: $gray-muted !important;
+    color: $light-muted !important;
   }
 
   #social {
-    color: $gray-muted !important;
+    color: $light-muted !important;
     font-size: 16px;
   }
 }

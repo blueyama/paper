@@ -2,19 +2,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100,100italic');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
+// Variables
+@import "../variables";
+@import "variables";
+
 // Modules
-@import "modules/_base";
-@import "modules/_vendor";
+@import "modules/base";
+@import "modules/vendor";
+@import "modules/main";
 
 // Pages
-@import "pages/_auth";
-@import "pages/_home";
-@import "pages/_post";
-@import "pages/_help";
-@import "pages/_media";
-@import "pages/_settings";
+@import "pages/auth";
+@import "pages/home";
+@import "pages/post";
+@import "pages/help";
+@import "pages/media";
+@import "pages/settings";
 
 // Partials
-@import "partials/_bootstrap-overrides";
-@import "partials/_navbar";
-@import "partials/_sidebar";
+@import "partials/bootstrap-overrides";
+@import "partials/navbar";
+@import "partials/sidebar";

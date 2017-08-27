@@ -2,18 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900italic,900,700italic,700,600italic,600,400italic,300,200italic,200,300italic');
 @import url('https:////fonts.googleapis.com/css?family=Source+Code+Pro:400,200,300,500,600,700,900');
 
+// Variables
+@import "../variables";
+@import "variables";
+
 // Modules
 @import "modules/_base";
 @import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-@import "modules/_layout";
+@import "modules/layout";
+@import "modules/main";
 
 // Pages
-@import "pages/_index";
-@import "pages/_post";
-@import "pages/_tag";
+@import "pages/index";
+@import "pages/post";
+@import "pages/tag";
 
 // Partials
-@import "partials/_bootstrap-overrides";
-@import "partials/_code";
-@import "partials/_navbar";
-@import "partials/_scroll-to-top";
+@import "partials/bootstrap-overrides";
+@import "partials/code";
+@import "partials/navbar";
+@import "partials/scroll-to-top";
