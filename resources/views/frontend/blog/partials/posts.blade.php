@@ -30,15 +30,13 @@ function isOdd($number)
 @foreach ($posts as $key => $post)
     <div class="row post-preview {{ isOdd($key) ? 'post-right-text' : '' }}">
         <div class="col-xs-12 col-md-5 {{ isOdd($key) ? 'post-right' : '' }}">
-            <div style="height: 200px">
-                <a href="{{ $post->url($tag) }}">
-                    @if ($post->page_image)
-                        <figure style="width: 340px; height: 210px; background: url({{ asset($post->page_image)}}); background-size: cover;"></figure>
-                    @else
-                        <figure style="width: 340px; height: 210px; background: url('http://via.placeholder.com/340x210?text=No+Image'); background-size: cover;"></figure>
-                    @endif
-                </a>
-            </div>
+            <a href="{{ $post->url($tag) }}" class="{{ isOdd($key) ? '' : 'post-right' }}">
+                @if ($post->page_image)
+                    <figure style="width: 340px; height: 210px; background: url({{ asset($post->page_image)}}); background-size: cover;"></figure>
+                @else
+                    <figure style="width: 340px; height: 210px; background: url('http://via.placeholder.com/340x210?text=No+Image'); background-size: cover;"></figure>
+                @endif
+            </a>
         </div>
 
         <div class="col-xs-12 col-md-7">
